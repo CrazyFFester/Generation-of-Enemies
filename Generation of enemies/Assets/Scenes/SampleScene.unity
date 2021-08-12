@@ -296,7 +296,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _spawnZone: {fileID: 2035730314}
-  _enemy: {fileID: -4839874009284636023, guid: a60c730a10d56884286da02f4bb88ff9, type: 3}
+  _enemy: {fileID: 410983503452638899, guid: a60c730a10d56884286da02f4bb88ff9, type: 3}
+  _amountOfEnemies: 5
   _spawnRate: 2
 --- !u!4 &678818497
 Transform:

@@ -5,6 +5,7 @@ public class SpawnEnemy : MonoBehaviour
 {
     [SerializeField] private Transform _spawnZone;
     [SerializeField] private Enemy _enemy;
+    [SerializeField] private int _amountOfEnemies;
     [SerializeField] private float _spawnRate;
 
     private Transform[] _spawnPoints;
@@ -24,7 +25,8 @@ public class SpawnEnemy : MonoBehaviour
     private IEnumerator PlacingEnemies()
     {
         WaitForSeconds waitForSeconds = new WaitForSeconds(_spawnRate);
-        for (int i = 0; i < _enemy.Amount; i++)
+
+        for (int i = 0; i < _amountOfEnemies; i++)
         {
             Instantiate(_enemy, _spawnPoints[_currentSpawnPoint].position, Quaternion.identity);
             _currentSpawnPoint++;

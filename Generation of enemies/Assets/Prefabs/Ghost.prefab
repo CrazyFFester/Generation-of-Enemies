@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7625654138566208758}
   - component: {fileID: 5941548817394565641}
-  - component: {fileID: -4839874009284636023}
+  - component: {fileID: 410983503452638899}
   m_Layer: 0
   m_Name: Ghost
   m_TagString: Untagged
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &-4839874009284636023
+--- !u!114 &410983503452638899
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
